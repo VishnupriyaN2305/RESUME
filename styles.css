@@ -1,0 +1,135 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h2 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #40514E;
+}
+.top {
+  background-image: url(White.jpg);
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 208px;
+}
+.middle {
+  background-image: url(Wall.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffbf61;
+}
+
+.bottom {
+  background-image: url(White.jpg);
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.line {
+  border-top: 5px solid #8c8b8b;
+  width: 30%;
+}
+.intro, .objective, .education, .skills, .experience, .added, .member, .project, .interest {
+  background-color: lightgrey;
+  width: 80%;
+  text-align: left;
+  border: 5px solid grey;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px 50px 30px;
+  background-image: url(Black.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform .2s;
+}
+
+#block:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  transform: scale(1.1);
+}
+
+.intro {
+  border-radius: 50px / 15px;
+}
+
+.head {
+  font-size: 30px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.content {
+  color: #9ae2ca;
+  font-weight: bold;
+}
+
+ul li {
+  color: #9ae2ca;
+  font-weight: bold;
+  list-style-type: square;
+}
+
+table {
+  color: #9ae2ca;
+  font-weight: bold;
+  border-collapse: collapse;
+}
+
+td {
+
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  padding-right: 150px;
+}
+
+.doc {
+  outline: thick ridge pink;
+  padding: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 4px;
+  background-image: url(Pink.jpg);
+  position: relative;
+}
+
+.hover {
+  transform: scale(1.5);
+}
+
+.headingLine {
+  width: 50%;
+  border-top: 5px solid #8c8b8b;
+}
+
+#sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  background-image: url(yellow.jpg);
+  top: 0;
+  margin: 2%;
+  padding: 50px;
+  font-size: 20px;
+  color: #40514E;
+  float: left;
+  padding: 5px 10px;
+  border: 2px solid Black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.end {
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  color: #40514E;
+  text-decoration: underline;
+}
